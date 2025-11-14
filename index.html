@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dhaval</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">DB</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">DB</div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-greeting">Hi, my name is</div>
+            <h1 class="hero-title">Dhaval Bheda.</h1>
+            <h2 class="hero-subtitle">I build things for the web.</h2>
+            <p class="hero-description">
+                I'm a Front-End Developer specializing in building exceptional digital experiences.
+                Currently, I'm focused on crafting responsive, user-friendly websites using modern
+                technologies and best practices.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title fade-in">
+            <span class="section-number">01.</span> About Me
+        </h2>
+        <div class="about-container">
+            <div class="about-text fade-in">
+                <p>
+                    Hello! I'm Dhaval, a passionate Front-End Developer based in Junagadh, Gujarat.
+                    I enjoy creating things that live on the internet, whether that be websites,
+                    applications, or anything in between.
+                </p>
+                <p>
+                    My journey in web development started during my BCA studies at CCSIT College,
+                    where I discovered my passion for creating intuitive and responsive web experiences.
+                    I've had the privilege of working as an intern at EliteInfotec, where I honed my skills
+                    in WordPress development and UI/UX design.
+                </p>
+                <p>
+                    Fast-forward to today, and I've had the opportunity to work on various projects,
+                    converting Figma designs into pixel-perfect layouts and optimizing website performance.
+                    My focus these days is on building accessible, inclusive products and digital experiences
+                    that make a difference.
+                </p>
+                <div class="tech-stack">
+                    <div class="tech-item">HTML & CSS</div>
+                    <div class="tech-item">JavaScript</div>
+                    <div class="tech-item">WordPress</div>
+                    <div class="tech-item">Bootstrap</div>
+                    <div class="tech-item">UI/UX Design</div>
+                    <div class="tech-item">Elementor</div>
+                </div>
+            </div>
+            <div class="about-image fade-in">
+                <div class="image-wrapper">
+                    <div class="image-placeholder">
+                        <img src="/assets/dhvl.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title fade-in">
+            <span class="section-number">02.</span> Skills & Expertise
+        </h2>
+        <div class="skills-container">
+            <div class="skill-category fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Front-End Development</h3>
+                <ul class="skill-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+            <div class="skill-category fade-in">
+                <div class="skill-icon">
+                    <i class="fab fa-wordpress"></i>
+                </div>
+                <h3>WordPress Development</h3>
+                <ul class="skill-list">
+                    <li>Theme Customization</li>
+                    <li>Elementor</li>
+                    <li>Custom CSS/JS</li>
+                    <li>Plugin Integration</li>
+                </ul>
+            </div>
+            <div class="skill-category fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>Design & Tools</h3>
+                <ul class="skill-list">
+                    <li>UI/UX Design</li>
+                    <li>Figma to Code</li>
+                    <li>Bootstrap Framework</li>
+                    <li>Video Editing</li>
+                </ul>
+            </div>
+            <div class="skill-category fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <h3>Languages</h3>
+                <ul class="skill-list">
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Gujarati</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="section-title fade-in">
+            <span class="section-number">03.</span> Where I've Worked
+        </h2>
+        <div class="experience-container">
+            <div class="experience-card fade-in">
+                <div class="experience-header">
+                    <h3 class="experience-title">Front-End Developer</h3>
+                    <p class="experience-company">EliteInfotec</p>
+                    <p class="experience-duration">Internship • 6 Months</p>
+                </div>
+                <ul class="experience-list">
+                    <li>Developed and maintained responsive WordPress websites with a focus on performance and user
+                        experience</li>
+                    <li>Converted Figma designs into pixel-perfect, functional front-end layouts using HTML, CSS, and
+                        JavaScript</li>
+                    <li>Enhanced UI/UX by implementing custom CSS/JS solutions and leveraging Elementor for dynamic page
+                        building</li>
+                    <li>Collaborated with cross-functional teams on bug fixing, code reviews, and performance
+                        optimization initiatives</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title fade-in">
+            <span class="section-number">04.</span> Some Things I've Built
+        </h2>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <img src="/assets/ugaoo.png">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Ugaoo - Plant E-Commerce</h3>
+                    <p>
+                        A comprehensive online plant ordering system designed to help users discover and
+                        purchase unique plant items. The platform features an intuitive interface for
+                        browsing categories, detailed product information, and a seamless ordering process.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">WordPress</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">E-Commerce</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <img src="/assets/electronic.png">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="project-content">
+                    <h3>ElectronicHub - E-Commerce Platform</h3>
+                    <p>
+                        A full-featured online electronics shop with real-time inventory updates, secure
+                        payment processing, customer profile management, and delivery tracking. Built with
+                        focus on security and user experience.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Payment Gateway</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title fade-in">
+            <span class="section-number">05.</span> Education
+        </h2>
+        <div class="education-container">
+            <div class="timeline-line"></div>
+            <div class="education-item fade-in">
+                <div class="education-content">
+                    <h3 class="education-degree">Bachelor of Computer Application (BCA)</h3>
+                    <p class="education-school">CCSIT College - Junagadh</p>
+                    <p class="education-year">2022 - 2025</p>
+                    <p class="education-score">CGPA: 8.50</p>
+                </div>
+            </div>
+            <div class="education-item fade-in">
+                <div class="education-content">
+                    <h3 class="education-degree">Higher Secondary Certificate (HSC)</h3>
+                    <p class="education-school">12th Standard</p>
+                    <p class="education-year">2021</p>
+                    <p class="education-score">Percentage: 63.28%</p>
+                </div>
+            </div>
+            <div class="education-item fade-in">
+                <div class="education-content">
+                    <h3 class="education-degree">Secondary School Certificate (SSC)</h3>
+                    <p class="education-school">10th Standard</p>
+                    <p class="education-year">2019</p>
+                    <p class="education-score">Percentage: 77.16%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title fade-in">
+            <span class="section-number">06.</span> Get In Touch
+        </h2>
+        <div class="contact-container">
+            <h3 class="contact-title fade-in">Let's Work Together</h3>
+            <p class="contact-text fade-in">
+                I'm currently looking for new opportunities and my inbox is always open.
+                Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <div class="contact-info fade-in">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+91 8153014011</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>bhedadhaval3@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Junagadh, Gujarat</p>
+                </div>
+            </div>
+            <div class="social-links fade-in">
+                <a href="https://www.linkedin.com/feed/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" target="_blank" title="whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:bhedadhaval3@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Dhaval Bheda. Designed & Built with <span style="color: var(--primary);">♥</span></p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+</body>
+<script src="style.js"></script>
+
+</html>
